@@ -1,0 +1,130 @@
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 0;  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+}
+
+strong {
+    font-weight: bold;
+}
+
+html {
+    font-size: 62.5%;
+    letter-spacing: .1rem;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+
+}
+
+body{
+    width: 90%;
+    
+}
+
+.content {
+    height: 10rem;
+}
+
+.content-div{
+    text-align: center;
+    margin: 5rem;
+}
+
+.content-div p {
+    margin: 1rem 0;
+}
+
+.header {
+    display: flex;
+   flex-direction: column;
+   position: relative;
+   bottom: 15rem;
+   left: 10rem;
+}
+
+header img {
+    border-radius: 50%;
+    height: 20rem;
+    display: block; 
+    margin-top: 5rem;   
+}
+
+header p {
+    font-size: 2rem;
+}
+
+
+
+a {
+    font-size: 2rem;
+    text-decoration: none;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    color: white;
+    margin: 5rem;
+}
+
+.orange-nav {
+    background-color:#FF754E;
+}
+
+.blue-nav {
+    background-color: #5FD3EC;
+}
+
+.yellow-nav {
+    background-color:#FFCD6A;
+}
+
+h1 {
+    font-size: 7rem;
+    font-family: 'Chelsea Market', cursive;
+    ;
+}
+
+.info {
+    background-color: #DDB9A3;
+    color: white;
+    padding: .5rem;
+    font-size: 2rem;
+}
+
+.wrapper {
+    text-align: center;
+}
+.content-div {
+    max-width: 40rem;
+    display: inline-block;
+}
+
+.content-div p {
+    font-size: 1.5rem;
+}
+
+.footer_img {
+    height: 30rem;
+    object-fit: cover;
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+footer{
+    background-color: #F9E7DD;
+    width: 100%;
+    padding: 3rem;
+}
