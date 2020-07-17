@@ -48,6 +48,15 @@ body{
 .content-div p {
     margin: 1rem 0;
 }
+
+.header {
+    display: flex;
+   flex-direction: column;
+   position: relative;
+   bottom: 15rem;
+   left: 10rem;
+}
+
 header img {
     border-radius: 50%;
     height: 20rem;
